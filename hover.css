@@ -1,0 +1,62 @@
+/* body{
+  background: #ddd;
+}
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+}
+figure {
+  width: 32%;
+  float: left;
+  margin: 0;
+}
+figcaption {
+  text-align: center;
+}
+figcaption h2 {
+  text-transform: uppercase;
+  margin: 15px 0;
+  font-family: "Poppins ExtraBold";
+} */
+/* figcaption p {
+  width: 90%;
+  margin: auto;
+  font-size: 18px;
+  font-family: roboto;
+  letter-spacing: 2px;
+}
+figcaption a {
+  background: tomato;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 30px;
+  letter-spacing: 3px;
+} */
+.hover-animation {
+  position: relative;
+  /* position:fixed; */
+  /* height: 350px;
+  width: 350px; */
+  /* margin: 10% auto 0; */
+  /* color: #fff; */
+  /* box-shadow: 5px 5px 15px rgba(0,0,0,0.6); */
+}
+
+.hover-animation img {
+  position: absolute;
+  left: 0;
+  /* width: 350px;
+  height: 350px; */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.hover-animation img.img-front:hover{
+  /* opacity:0; */
+  cursor: pointer;
+}

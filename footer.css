@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato-Regular, Arial, sans-serif;
+}
+
+
+/* footer related content shtarts here  */
+/* main css for whole footer  */
+footer{
+    width: 100%;
+    bottom: 0;
+    background: #594db4;
+    color: #fff;
+    font-size: 12px;
+    font-family: Lato-Regular, Arial, sans-serif;
+    line-height: 20px;  
+}
+
+/* main body section css whole div  */
+.rowsection{
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 0px;
+ 
+    
+}
+
+/* targeting quicklinks on mainbody of footer  */
+.rows  {
+    padding: 20px;
+    width: 200px;
+    
+}
+.rows ul li {
+    list-style-type: none;
+}
+.rows ul li a {
+    text-decoration: none;
+    color: #fff;   
+}
+.rows ul li a:hover{
+    color: #000000;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+    
+}
+.rows ul li a:active{
+    color: grey;
+}
+
+/* targeting whole ask us anything section  */
+.askusanything {
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    background: #6d6bcf;
+    padding: 20px 10px ;
+}
+
+.askusanything:hover{
+    text-shadow: 2px 2px black;
+}
+
+/* targeting user, question symbol with AUA test  */
+.askusanything #user{
+    font-size: 35px;
+    color:#fff ;
+}
+        
+.askusanything #question{
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+    right: 7px;
+    color:#fff;
+}
+    
+.askusanything #auatext{
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Cardo-Bold,Times New Roman,serif;
+    font-weight: bold;
+    padding-top: 9px;
+}
+
+/* horizontal line after main body footer */
+hr{
+    width: 98%;
+    color: #8e8bf0;
+    border-bottom: 1px solid #8c82d3;
+    margin: 20px auto;
+}
+
+/* first bar after main body  */
+.iconbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 20px  70px;
+}
+
+ /* targeting social icons  */
+ .sicons  .fab {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    
+ }
+ .sicons{
+     text-align: center;
+ }
+ .sicons  .fab:hover{
+    color: #000000;
+    transition: all 0.2s ease-in-out;
+ }
+ .sicons  .fab:active{
+     color: grey;
+ }
+
+ /* targeting PDC words */
+ .pdc a{ 
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+ }
+ .pdc a:hover{
+    color:#000000 ;
+    transition: all 0.2s ease-in-out;
+ }
+ .pdc a:active{
+    color: grey;
+ }
+
+ /* CSS for division b/w PDC words  */
+ /* .pdc #Contact{
+    border-left: 1px solid #fff;
+ } */
+ /* .pdc #Disclaimer{
+    border-left: 1px solid #fff;
+} */
+
+/* targeting copyright text section  */
+.copyright{
+    font-weight: bold;  
+}
+ /* grid footer quicklinks section  */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    justify-content: center ;
+    align-items: center;
+}
+.Fquicklinks{
+    border: 1px solid #716aac;
+    padding: 10px;
+    text-align: center;
+    /* margin: 1px; */
+}
+.Fquicklinks a{
+    color: #fff;
+    font-size: 12px;
+}
+.Fquicklinks a:hover{
+    color:#000000 ;
+    transition: all 0.2s ease-in-out;
+}
+.Fquicklinks a:active{
+    color: grey;
+}
+
+/* footer end share price section  */
+.shareprice{
+    margin-top: 30px;
+    background-color: #fff;
+    height: 100px;
+    text-align: center;
+   
+}
+.shareprice  span{
+    display:inline-block;
+    border: 1px solid grey;
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(233, 233, 233);
+}
+ 

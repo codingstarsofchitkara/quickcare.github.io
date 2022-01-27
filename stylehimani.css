@@ -1,0 +1,98 @@
+header {
+	margin: 0;
+	padding: 0;
+	font-family: Proxima Nova,sans-serif;
+	background: url("hospital.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	/* height: 100vh; */
+}
+#logo {
+	padding: 5px;
+}
+#topheader{
+	display: flex;
+}
+header a {
+	font-size: 17px;
+	text-transform: uppercase;
+}
+.nav-area {
+	background:#7868E6;
+
+}
+.nav-area:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.nav-area ul {
+	list-style: none;
+	margin: 0;
+	padding-top: 35px;
+}
+.nav-area ul li {
+	float: left;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	
+}
+.nav-area ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 15px;
+	display: block;
+}
+.nav-area ul li:hover a {
+	background: #8c7de9;
+}
+.nav-area ul ul {
+	position: absolute;
+	padding: 0;
+	/* min-width: 160px; */
+	display: none;
+	top: 100%;
+	left: 0;
+}
+.nav-area ul li:hover>ul {
+	display: inline-block;
+
+}
+.nav-area ul ul li:hover a {
+	background: #b8b1e2;
+
+	display: inline-block;
+}
+.nav-area ul ul li {
+	position: relative;
+}
+.nav-area ul ul ul {
+	top: 0;
+	/* left: 100%; */
+	/* left:20vh; */
+	left:100%;
+}
+/* .nav-area ul ul ul {
+opacity: 1.5;
+} */
+.nav-area ul ul ul li:hover a {
+	background: #8075c2;
+}
+.button-himani{
+	background-color: #e4fbff;
+	color: black;
+	height: 10vh;
+	border-radius: 4vh;
+	margin-left:2vh;
+}
+.button-himani:hover{
+	background-color: aquamarine;
+	color: black;
+	height: 10vh;
+	border-radius: 4vh;
+	margin-left:2vh;
+
+}

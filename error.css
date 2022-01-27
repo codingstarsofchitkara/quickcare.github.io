@@ -1,0 +1,197 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ /* secondary header (topmost) starts  */
+.secheader{
+    display: flex;
+    justify-content: space-between;
+    background-color: #594db4;
+
+}
+/* social icons section in sec header  */
+.secheader span {
+    padding: 3px;
+    margin: 3px;
+    color: #fff;
+    font-family: Lato-Bold, Arial, sans-serif;
+    font-weight: bold;
+
+}
+.secheader .SiconsF {
+    padding: 3px;
+    margin: 3px;
+    font-size: 10px;
+
+}
+.SiconsF .fab{
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #fff;
+}
+.SiconsF .fab:hover{
+    color: #1e1558;
+}
+
+/* PDC  section in sec header  */
+.secheader .pdcF {
+    padding: 3px;
+    margin:3px;
+    font-size: 10px;
+    color: #fff; 
+    font-family: Lato-Bold, Arial, sans-serif; 
+    font-weight: bold;
+   
+}
+.pdcF a{
+    text-decoration: none;
+    color: #fff;
+}
+.pdcF a:hover{
+    color: #1e1558;
+}
+
+/* header primary mains starts  */
+.priheader{
+    display:flex;
+    background-color: #E4FBFF;
+    justify-content: space-between;
+    font-family: Lato-Bold, Arial, sans-serif; 
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+/* logo primary header  */
+.logoPH img{
+    width: 180px;
+    height: 90px;
+    padding: 5px;
+    margin: 5px;
+}
+.barsearch{
+    border: 2px solid rgb(124, 122, 122);
+}
+.barsearch input{
+    background-color: transparent;
+    border: 2px solid transparent;
+    
+    padding-bottom: 3px;
+    padding-left: 5px;
+    
+}
+.barsearch button{
+    background-color: transparent;
+    border: 2px solid transparent;
+    font-size: 20px;
+    padding:auto ;
+    padding-right: 5px;
+}
+.barsearch button i{
+    color: rgb(189, 188, 188);
+
+}
+input[type="text"]::placeholder{
+   text-align:left;
+   font-size: 16px;
+   font-weight: bold;
+   opacity: 0.6;
+}
+/* buttons primary section  */
+.buttons {
+    padding-right: 30px;
+    font-size: 12px;
+}
+.buttons a{
+display: inline-block;
+border: 1px solid rgb(80, 73, 73);
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding: 10px;
+}
+.buttons a p{
+    display: block;
+    color: #fff;
+    text-align: center; 
+}
+ /* emer:emergency  */
+.buttons #emer {  
+    background-color: rgb(226, 77, 77);
+}
+.buttons #emer:hover{
+    text-shadow: 1px 1px black;
+}
+.buttons #emer:active{
+    background-color: rgb(34, 128, 47);
+}
+
+/* lne:lifeline  */
+.buttons #lne{
+    background-color: rgb(96, 96, 245) ;
+}
+.buttons #lne:hover{
+    text-shadow: 1px 1px black;
+}
+.buttons #lne:active{
+    background-color: rgb(34, 34, 133) ;
+}
+
+
+
+hr{color: #eaeaea;}
+
+
+
+ /* main section  */
+main
+{
+    background-color: #EDEEF7;
+}
+.overallbody{
+    padding-top: 10vh ;
+    padding-bottom: 10vh;
+  
+}
+
+.overallbody .phototext{
+    margin-left:20vw ;
+    margin-right: 20vw;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pictext404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.text404{
+    padding-top: 40px;
+    font-family: Lato-Bold, Arial, sans-serif; 
+    text-align: center;
+    line-height: 1.5em;
+}
+
+
+/* footer section  */
+footer{
+   
+    background-color: #594db4;   
+    bottom: 0%; 
+}
+footer div {
+    text-align: center ;
+    font-family: Lato-Bold, Arial, sans-serif; 
+    font-weight: bold;
+    justify-self: center;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 10px;
+    bottom: 0; 
+}
+
+

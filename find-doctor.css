@@ -1,0 +1,231 @@
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey;  */
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E4FBFF; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E4FBFF;
+}
+/* scroll bar end */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+nav{
+  background-color: #E4FBFF;
+    opacity: 1;
+    color:#7868E6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+nav h1{
+    font-size: 8vh;
+    margin-left: 5%;
+}
+nav  input{
+  background-color: #E4FBFF;
+    color:#7868E6;
+    font-size: 3vh;
+    height:10%;
+    margin-left: 5%;
+    margin:10px;
+    padding: 10px;
+
+}
+nav input {
+  color:#7868E6;
+  font-weight: bold;
+    border:2px solid navy;
+    border-radius: 10px;
+}
+::placeholder {
+  color:#7868E6;
+    opacity: 1; /* Firefox */
+  }
+  
+  /* :-ms-input-placeholder { Internet Explorer 10-11
+   color: navy;
+  }
+  
+  ::-ms-input-placeholder { Microsoft Edge
+   color:navy;
+  } */
+  .arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  /* for button */
+  .button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20vh;
+    height:10vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 7vh;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1{
+    background-color:#7868E6;
+    color:white;
+    margin:10px;
+    padding: 10px;
+    height: 10vh;
+
+    font-size: 3vh;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .button2{
+    background-color:#7868E6;
+    color:white;
+    margin:10px;
+    padding: 10px;
+    height: 10vh;
+
+    font-size: 3vh;
+    /* border:1px solid black; */
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .button2:hover{
+    background-color:  #E4FBFF;
+    color:black;
+    margin:10px;
+    padding: 10px;
+    height: 10vh;
+
+    font-size: 3vh;
+
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .small-linking-section {
+    color:#7868E6;
+    text-decoration: none;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size:1rem;
+}
+  .small-linking-section a{
+    color:#7868E6;
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-size:1rem;
+}
+.small-linking-section a:hover{
+    color: #b8b5ff;
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-size:1rem;
+}
+/* dropdown */
+.dropbtn,.dropbtn-1 {
+  background-color: #7868E6;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus, .dropbtn-1:hover, .dropbtn-1:focus{
+  /* background-color: #2980B9; */
+  background-color: #7868E6;
+}
+
+.dropdown,.dropdown-1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content,.dropdown-content-1  {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a,.dropdown-content-1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover,.dropdown-1 a:hover {background-color: #ddd;}
+
+.show {display: block;}
+/* scroll bar */
+/* width */
+
+/* scroll bar end */
+#flex {
+ 
+  display:flex;
+  flex-wrap: wrap;
+  
+
+}
+.doctors-list-flex-sub{
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  width:30vh;
+  border:2px solid black;
+  margin-left: 10vh;
+  margin-top: 10vh;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .doctors-list-flex-sub {
+    flex: 100%;
+  }
+}
+.doctors-list-flex-sub img{
+
+ width:20vh;
+}
+.doctors-list-flex-sub h1{
+color: black;
+  font-size: 3vh;
+ }
+ .doctors-list-flex-sub h2{
+  color: black;
+    font-size: 2vh;
+   }
